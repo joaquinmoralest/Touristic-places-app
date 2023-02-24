@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2D89F7F29A5763B00F14191 /* testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D89F7E29A5763B00F14191 /* testApp.swift */; };
+		D2046BFA29A7BCE4000A587F /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2046BF929A7BCE4000A587F /* ImageView.swift */; };
+		D2046BFC29A7C038000A587F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2046BFB29A7C038000A587F /* MapView.swift */; };
+		D2046BFE29A7C45E000A587F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2046BFD29A7C45E000A587F /* MainView.swift */; };
+		D2046C0129A7C8D1000A587F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2046C0029A7C8D0000A587F /* Location.swift */; };
+		D2046C0429A7C943000A587F /* Programmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2046C0329A7C943000A587F /* Programmer.swift */; };
+		D2046C0629A7C975000A587F /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2046C0529A7C975000A587F /* RowView.swift */; };
+		D2046C0829A7CE58000A587F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2046C0729A7CE58000A587F /* ListView.swift */; };
+		D2046C0A29A7E50B000A587F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2046C0929A7E50B000A587F /* DetailView.swift */; };
+		D2046C0C29A7EC84000A587F /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2046C0B29A7EC84000A587F /* NavView.swift */; };
+		D2D89F7F29A5763B00F14191 /* touristicPlacesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D89F7E29A5763B00F14191 /* touristicPlacesApp.swift */; };
 		D2D89F8129A5763B00F14191 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D89F8029A5763B00F14191 /* ContentView.swift */; };
 		D2D89F8329A5763E00F14191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D89F8229A5763E00F14191 /* Assets.xcassets */; };
 		D2D89F8629A5763E00F14191 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D89F8529A5763E00F14191 /* Preview Assets.xcassets */; };
-		D2D89F9029A5763E00F14191 /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D89F8F29A5763E00F14191 /* testTests.swift */; };
-		D2D89F9A29A5763E00F14191 /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D89F9929A5763E00F14191 /* testUITests.swift */; };
-		D2D89F9C29A5763E00F14191 /* testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D89F9B29A5763E00F14191 /* testUITestsLaunchTests.swift */; };
+		D2D89F9029A5763E00F14191 /* touristicPlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D89F8F29A5763E00F14191 /* touristicPlacesTests.swift */; };
+		D2D89F9A29A5763E00F14191 /* touristicPlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D89F9929A5763E00F14191 /* touristicPlacesUITests.swift */; };
+		D2D89F9C29A5763E00F14191 /* touristicPlacesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D89F9B29A5763E00F14191 /* touristicPlacesUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +43,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D2D89F7B29A5763B00F14191 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2D89F7E29A5763B00F14191 /* testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApp.swift; sourceTree = "<group>"; };
+		D2046BF929A7BCE4000A587F /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		D2046BFB29A7C038000A587F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		D2046BFD29A7C45E000A587F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D2046C0029A7C8D0000A587F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		D2046C0329A7C943000A587F /* Programmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmer.swift; sourceTree = "<group>"; };
+		D2046C0529A7C975000A587F /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		D2046C0729A7CE58000A587F /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		D2046C0929A7E50B000A587F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		D2046C0B29A7EC84000A587F /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
+		D2D89F7B29A5763B00F14191 /* TouristicPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouristicPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D89F7E29A5763B00F14191 /* touristicPlacesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = touristicPlacesApp.swift; sourceTree = "<group>"; };
 		D2D89F8029A5763B00F14191 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D2D89F8229A5763E00F14191 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2D89F8529A5763E00F14191 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D2D89F8B29A5763E00F14191 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2D89F8F29A5763E00F14191 /* testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTests.swift; sourceTree = "<group>"; };
-		D2D89F9529A5763E00F14191 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2D89F9929A5763E00F14191 /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
-		D2D89F9B29A5763E00F14191 /* testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2D89F8B29A5763E00F14191 /* TouristicPlacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouristicPlacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D89F8F29A5763E00F14191 /* touristicPlacesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = touristicPlacesTests.swift; sourceTree = "<group>"; };
+		D2D89F9529A5763E00F14191 /* TouristicPlacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouristicPlacesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D89F9929A5763E00F14191 /* touristicPlacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = touristicPlacesUITests.swift; sourceTree = "<group>"; };
+		D2D89F9B29A5763E00F14191 /* touristicPlacesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = touristicPlacesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +89,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2046BFF29A7C87D000A587F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D2046C0029A7C8D0000A587F /* Location.swift */,
+				D2046C0329A7C943000A587F /* Programmer.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D2046C0229A7C8ED000A587F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D2D89F8029A5763B00F14191 /* ContentView.swift */,
+				D2046BF929A7BCE4000A587F /* ImageView.swift */,
+				D2046BFB29A7C038000A587F /* MapView.swift */,
+				D2046BFD29A7C45E000A587F /* MainView.swift */,
+				D2046C0529A7C975000A587F /* RowView.swift */,
+				D2046C0729A7CE58000A587F /* ListView.swift */,
+				D2046C0929A7E50B000A587F /* DetailView.swift */,
+				D2046C0B29A7EC84000A587F /* NavView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D2D89F7229A5763B00F14191 = {
 			isa = PBXGroup;
 			children = (
-				D2D89F7D29A5763B00F14191 /* test */,
-				D2D89F8E29A5763E00F14191 /* testTests */,
-				D2D89F9829A5763E00F14191 /* testUITests */,
+				D2D89F7D29A5763B00F14191 /* touristicPlaces */,
+				D2D89F8E29A5763E00F14191 /* touristicPlacesTests */,
+				D2D89F9829A5763E00F14191 /* touristicPlacesUITests */,
 				D2D89F7C29A5763B00F14191 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,22 +126,23 @@
 		D2D89F7C29A5763B00F14191 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2D89F7B29A5763B00F14191 /* test.app */,
-				D2D89F8B29A5763E00F14191 /* testTests.xctest */,
-				D2D89F9529A5763E00F14191 /* testUITests.xctest */,
+				D2D89F7B29A5763B00F14191 /* TouristicPlaces.app */,
+				D2D89F8B29A5763E00F14191 /* TouristicPlacesTests.xctest */,
+				D2D89F9529A5763E00F14191 /* TouristicPlacesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D2D89F7D29A5763B00F14191 /* test */ = {
+		D2D89F7D29A5763B00F14191 /* touristicPlaces */ = {
 			isa = PBXGroup;
 			children = (
-				D2D89F7E29A5763B00F14191 /* testApp.swift */,
-				D2D89F8029A5763B00F14191 /* ContentView.swift */,
+				D2D89F7E29A5763B00F14191 /* touristicPlacesApp.swift */,
+				D2046C0229A7C8ED000A587F /* Views */,
+				D2046BFF29A7C87D000A587F /* Data */,
 				D2D89F8229A5763E00F14191 /* Assets.xcassets */,
 				D2D89F8429A5763E00F14191 /* Preview Content */,
 			);
-			path = test;
+			path = touristicPlaces;
 			sourceTree = "<group>";
 		};
 		D2D89F8429A5763E00F14191 /* Preview Content */ = {
@@ -110,29 +153,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D2D89F8E29A5763E00F14191 /* testTests */ = {
+		D2D89F8E29A5763E00F14191 /* touristicPlacesTests */ = {
 			isa = PBXGroup;
 			children = (
-				D2D89F8F29A5763E00F14191 /* testTests.swift */,
+				D2D89F8F29A5763E00F14191 /* touristicPlacesTests.swift */,
 			);
-			path = testTests;
+			path = touristicPlacesTests;
 			sourceTree = "<group>";
 		};
-		D2D89F9829A5763E00F14191 /* testUITests */ = {
+		D2D89F9829A5763E00F14191 /* touristicPlacesUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D2D89F9929A5763E00F14191 /* testUITests.swift */,
-				D2D89F9B29A5763E00F14191 /* testUITestsLaunchTests.swift */,
+				D2D89F9929A5763E00F14191 /* touristicPlacesUITests.swift */,
+				D2D89F9B29A5763E00F14191 /* touristicPlacesUITestsLaunchTests.swift */,
 			);
-			path = testUITests;
+			path = touristicPlacesUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2D89F7A29A5763B00F14191 /* test */ = {
+		D2D89F7A29A5763B00F14191 /* TouristicPlaces */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2D89F9F29A5763E00F14191 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = D2D89F9F29A5763E00F14191 /* Build configuration list for PBXNativeTarget "TouristicPlaces" */;
 			buildPhases = (
 				D2D89F7729A5763B00F14191 /* Sources */,
 				D2D89F7829A5763B00F14191 /* Frameworks */,
@@ -142,14 +185,14 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = TouristicPlaces;
 			productName = test;
-			productReference = D2D89F7B29A5763B00F14191 /* test.app */;
+			productReference = D2D89F7B29A5763B00F14191 /* TouristicPlaces.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D2D89F8A29A5763E00F14191 /* testTests */ = {
+		D2D89F8A29A5763E00F14191 /* TouristicPlacesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2D89FA229A5763E00F14191 /* Build configuration list for PBXNativeTarget "testTests" */;
+			buildConfigurationList = D2D89FA229A5763E00F14191 /* Build configuration list for PBXNativeTarget "TouristicPlacesTests" */;
 			buildPhases = (
 				D2D89F8729A5763E00F14191 /* Sources */,
 				D2D89F8829A5763E00F14191 /* Frameworks */,
@@ -160,14 +203,14 @@
 			dependencies = (
 				D2D89F8D29A5763E00F14191 /* PBXTargetDependency */,
 			);
-			name = testTests;
+			name = TouristicPlacesTests;
 			productName = testTests;
-			productReference = D2D89F8B29A5763E00F14191 /* testTests.xctest */;
+			productReference = D2D89F8B29A5763E00F14191 /* TouristicPlacesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D2D89F9429A5763E00F14191 /* testUITests */ = {
+		D2D89F9429A5763E00F14191 /* TouristicPlacesUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2D89FA529A5763E00F14191 /* Build configuration list for PBXNativeTarget "testUITests" */;
+			buildConfigurationList = D2D89FA529A5763E00F14191 /* Build configuration list for PBXNativeTarget "TouristicPlacesUITests" */;
 			buildPhases = (
 				D2D89F9129A5763E00F14191 /* Sources */,
 				D2D89F9229A5763E00F14191 /* Frameworks */,
@@ -178,9 +221,9 @@
 			dependencies = (
 				D2D89F9729A5763E00F14191 /* PBXTargetDependency */,
 			);
-			name = testUITests;
+			name = TouristicPlacesUITests;
 			productName = testUITests;
-			productReference = D2D89F9529A5763E00F14191 /* testUITests.xctest */;
+			productReference = D2D89F9529A5763E00F14191 /* TouristicPlacesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +249,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D2D89F7629A5763B00F14191 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = D2D89F7629A5763B00F14191 /* Build configuration list for PBXProject "TouristicPlaces" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +262,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2D89F7A29A5763B00F14191 /* test */,
-				D2D89F8A29A5763E00F14191 /* testTests */,
-				D2D89F9429A5763E00F14191 /* testUITests */,
+				D2D89F7A29A5763B00F14191 /* TouristicPlaces */,
+				D2D89F8A29A5763E00F14191 /* TouristicPlacesTests */,
+				D2D89F9429A5763E00F14191 /* TouristicPlacesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,7 +301,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2D89F8129A5763B00F14191 /* ContentView.swift in Sources */,
-				D2D89F7F29A5763B00F14191 /* testApp.swift in Sources */,
+				D2046BFC29A7C038000A587F /* MapView.swift in Sources */,
+				D2D89F7F29A5763B00F14191 /* touristicPlacesApp.swift in Sources */,
+				D2046C0A29A7E50B000A587F /* DetailView.swift in Sources */,
+				D2046C0629A7C975000A587F /* RowView.swift in Sources */,
+				D2046BFE29A7C45E000A587F /* MainView.swift in Sources */,
+				D2046C0429A7C943000A587F /* Programmer.swift in Sources */,
+				D2046C0C29A7EC84000A587F /* NavView.swift in Sources */,
+				D2046C0129A7C8D1000A587F /* Location.swift in Sources */,
+				D2046BFA29A7BCE4000A587F /* ImageView.swift in Sources */,
+				D2046C0829A7CE58000A587F /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2D89F9029A5763E00F14191 /* testTests.swift in Sources */,
+				D2D89F9029A5763E00F14191 /* touristicPlacesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +326,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2D89F9C29A5763E00F14191 /* testUITestsLaunchTests.swift in Sources */,
-				D2D89F9A29A5763E00F14191 /* testUITests.swift in Sources */,
+				D2D89F9C29A5763E00F14191 /* touristicPlacesUITestsLaunchTests.swift in Sources */,
+				D2D89F9A29A5763E00F14191 /* touristicPlacesUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +336,12 @@
 /* Begin PBXTargetDependency section */
 		D2D89F8D29A5763E00F14191 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2D89F7A29A5763B00F14191 /* test */;
+			target = D2D89F7A29A5763B00F14191 /* TouristicPlaces */;
 			targetProxy = D2D89F8C29A5763E00F14191 /* PBXContainerItemProxy */;
 		};
 		D2D89F9729A5763E00F14191 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2D89F7A29A5763B00F14191 /* test */;
+			target = D2D89F7A29A5763B00F14191 /* TouristicPlaces */;
 			targetProxy = D2D89F9629A5763E00F14191 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -416,7 +468,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"touristicPlaces/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -444,7 +496,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"touristicPlaces/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -480,7 +532,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouristicPlaces.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TouristicPlaces";
 			};
 			name = Debug;
 		};
@@ -499,7 +551,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouristicPlaces.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TouristicPlaces";
 			};
 			name = Release;
 		};
@@ -540,7 +592,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2D89F7629A5763B00F14191 /* Build configuration list for PBXProject "test" */ = {
+		D2D89F7629A5763B00F14191 /* Build configuration list for PBXProject "TouristicPlaces" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2D89F9D29A5763E00F14191 /* Debug */,
@@ -549,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2D89F9F29A5763E00F14191 /* Build configuration list for PBXNativeTarget "test" */ = {
+		D2D89F9F29A5763E00F14191 /* Build configuration list for PBXNativeTarget "TouristicPlaces" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2D89FA029A5763E00F14191 /* Debug */,
@@ -558,7 +610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2D89FA229A5763E00F14191 /* Build configuration list for PBXNativeTarget "testTests" */ = {
+		D2D89FA229A5763E00F14191 /* Build configuration list for PBXNativeTarget "TouristicPlacesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2D89FA329A5763E00F14191 /* Debug */,
@@ -567,7 +619,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2D89FA529A5763E00F14191 /* Build configuration list for PBXNativeTarget "testUITests" */ = {
+		D2D89FA529A5763E00F14191 /* Build configuration list for PBXNativeTarget "TouristicPlacesUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2D89FA629A5763E00F14191 /* Debug */,
